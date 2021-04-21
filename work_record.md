@@ -33,3 +33,20 @@ $ vim ~/.gitconfig
 ```console
 $ git config --global color.ui auto
 ```
+
+## Set SSH Keys for GitHub
+1. Generating an SSH key pair
+```console
+$ ssh-keygen -t rsa -C "my_email_address"
+```
+
+2. Add my public key to GitHub
+Copy the contents of the output of "cat" to "New SSH key"(Account settings->SSH and GPG keys).
+```console
+cat ~/.ssh/id_rsa.pub
+```
+
+3. Confirm SSH keys
+```console
+ssh -T git@github.com
+```
