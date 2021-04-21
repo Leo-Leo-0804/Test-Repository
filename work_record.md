@@ -1,4 +1,4 @@
-# Work record of Github participation
+# Work record of my participation in Github 
 This document is also practice of GFM(Github Flavored Markdown).
 ## Set the name and email address to use with Git
 The name and e-mail address set here will be published when the repository is published on GitHub.
@@ -8,12 +8,25 @@ Also, it seems better to use English letters. (Because it is a common language i
 ```console
 $ git config --global user.name "Firstname Lastname"
 ```
-1. Set the name
+
+1. Confirm the name
 ```console
-$ git config --global user.name "Firstname Lastname"
+$ git config --global user.name
 ```
-1. Set the name
+
+1. Set email address
 ```console
-$ git config --global user.name "Firstname Lastname"
+$ git config --global user.email my_email_address
 ```
+
+1. Confirm email address
+```console
+$ git config --global user.email
+```
+
+1. You can also set and check by the following method.
+```console
+$ vim ~/.gitconfig
+```
+
 ## Set the name and email address to use with Git
