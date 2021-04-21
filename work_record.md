@@ -29,5 +29,7 @@ $ git config --global user.email
 $ vim ~/.gitconfig
 ```
 
-## Set the name and email address to use with Git
-
+6. Command line color settings
+```console
+$ git config --global color.ui auto
+```
