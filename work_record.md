@@ -30,3 +30,4 @@ $ vim ~/.gitconfig
 ```
 
 ## Set the name and email address to use with Git
+
