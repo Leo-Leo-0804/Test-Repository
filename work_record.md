@@ -9,22 +9,22 @@ Also, it seems better to use English letters. (Because it is a common language i
 $ git config --global user.name "Firstname Lastname"
 ```
 
-1. Confirm the name
+2. Confirm the name
 ```console
 $ git config --global user.name
 ```
 
-1. Set email address
+3. Set email address
 ```console
 $ git config --global user.email my_email_address
 ```
 
-1. Confirm email address
+4. Confirm email address
 ```console
 $ git config --global user.email
 ```
 
-1. You can also set and check by the following method.
+5. You can also set and check by the following method.
 ```console
 $ vim ~/.gitconfig
 ```
