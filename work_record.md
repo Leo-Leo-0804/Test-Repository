@@ -24,7 +24,7 @@ git config --global user.email my_email_address
 git config --global user.email
 ```
 
-5. I can also set and check by the following method.
+5. I can also set and check by the following method
 ```console
 vim ~/.gitconfig
 ```
